@@ -389,10 +389,156 @@ img {
   overflow: hidden;
 }
 
+.werre {
+  padding-top: 369px;
+  padding-bottom: 158px;
+  background-color: #fffefe;
+}
+
+.werre__text {
+  margin: 0;
+  padding: 0;
+  margin-bottom: 96px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 72px;
+  line-height: 64px;
+  color: #2c2830;
+}
+.werre__text::before {
+  height: 1px;
+  width: 150px;
+  display: block;
+  background-color: #c396c6;
+  margin-bottom: 63px;
+  content: "";
+}
+
 .werre__list {
   margin: 0;
   padding: 0;
   list-style: none;
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.werre__item {
+  width: 350px;
+}
+
+.werre__spas {
+  align-items: center;
+  background-color: #96a9c6;
+  padding: 27px 32px 27px 32px;
+  border-radius: 50%;
+  margin-bottom: 32px;
+  display: inline-block;
+}
+
+.werre__spas svg {
+  color: white;
+}
+
+.werre__heading {
+  margin: 0;
+  padding: 0;
+  margin-bottom: 16px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 38px;
+  color: #2c2830;
+}
+
+.werre__deck {
+  margin: 0;
+  padding: 0;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #837d88;
+}
+
+@media only screen and (max-width: 1100px) {
+  .werre__item {
+    width: 330px;
+  }
+}
+@media only screen and (max-width: 1000px) {
+  .werre__item {
+    width: 320px;
+  }
+}
+@media only screen and (max-width: 800px) {
+  .werre__item {
+    width: 100%;
+    display: flex;
+  }
+}
+@media only screen and (max-width: 800px) {
+  .werre__item {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .werre__spas {
+    width: 86px;
+    margin: 0 auto;
+    padding-left: 28px;
+  }
+}
+.how-we-work {
+  padding-bottom: 150px;
+}
+
+.how-we-work__container {
+  background-color: #2d2641;
+  padding: 69px 80px;
+}
+
+.how-we-work__content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.how-we-work__heading {
+  width: 480px;
+  margin: 0;
+  padding: 0;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 56px;
+  line-height: 56px;
+  color: #ffffff;
+}
+
+.how-we-work__link {
+  text-decoration: none;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 13px;
+  line-height: 15px;
+  text-align: center;
+  letter-spacing: 1.5px;
+  color: #ffffff;
+  border: 1px solid white;
+  padding-top: 13px;
+  padding-bottom: 12px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+@media only screen and (max-width: 500px) {
+  .how-we-work__heading {
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 40px;
+    text-align: center;
+    letter-spacing: -0.555556px;
+    color: #ffffff;
+  }
 }/*# sourceMappingURL=main.css.map */
