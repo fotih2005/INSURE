@@ -425,6 +425,10 @@ img {
   color: #837D88;
 }
 
+.site-footer__item-link:hover {
+  color: #000;
+}
+
 .site-footer__line {
   display: block;
   margin: 0;
@@ -463,6 +467,11 @@ img {
 .site-footer__work-card-link {
   text-decoration: none;
   font-size: 13px;
+  color: #2D2641;
+}
+
+.site-footer__work-card-link:hover {
+  border-bottom: 1px solid #2D2641;
   color: #2D2641;
 }
 

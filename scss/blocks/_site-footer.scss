@@ -17,6 +17,9 @@
     margin-right: 16px;
 }
 .site-footer__item-link {
+    &:hover{
+       color: #000;
+    }
     color: #837D88;
 }
 .site-footer__line {
@@ -45,6 +48,10 @@
     list-style: none;
 }
 .site-footer__work-card-link {
+    &:hover{
+        border-bottom: 1px solid #2D2641;
+        color: #2D2641;
+    }
     text-decoration: none;
     font-size: 13px;
     color: #2D2641;
