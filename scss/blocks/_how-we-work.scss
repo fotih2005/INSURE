@@ -1,0 +1,49 @@
+.how-we-work {
+  padding-bottom: 150px;
+}
+.how-we-work__container {
+  background-color: #2d2641;
+  padding: 69px 80px;
+}
+.how-we-work__content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.how-we-work__heading {
+  width: 480px;
+  margin: 0;
+  padding: 0;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 56px;
+  line-height: 56px;
+  color: #ffffff;
+}
+.how-we-work__link {
+  text-decoration: none;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 13px;
+  line-height: 15px;
+  text-align: center;
+  letter-spacing: 1.5px;
+  color: #ffffff;
+  border: 1px solid white;
+  padding-top: 13px;
+  padding-bottom: 12px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+@media only screen and (max-width: 500px) {
+  .how-we-work__heading {
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 40px;
+    text-align: center;
+    letter-spacing: -0.555556px;
+    color: #ffffff;
+  }
+}

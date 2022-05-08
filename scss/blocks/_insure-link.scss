@@ -1,0 +1,37 @@
+.insure-link {
+    display: inline-block;
+    padding: 13px 29px 12px 29px;
+    text-decoration: none; 
+    background-color: #fff;
+    color: #2C2830;
+    border: 1.5px solid #2C2830;
+    transition: color 0.8s ease , background-color 0.8s ease;
+    &:hover{
+        background-color: #2C2830;
+        color: #fff;
+    }
+    &--white{
+        background-color: transparent;
+        border: 1.5px solid #fff;
+        color: #fff;
+        &:hover{
+            color: #2C2830;
+            background-color: #fff;
+        }
+    }
+}
+@include breakpoint-down(570px){
+    .insure-link{
+        text-align: center;
+        width: 372px;
+        background-color: #2C2830;
+        color: #fff;
+        border: 1.5px solid #fff;
+        &--white{
+            width: 159px;
+            border: 1.5px solid #fff;
+            background-color: transparent;
+            color: #fff;
+        }
+    }
+}
